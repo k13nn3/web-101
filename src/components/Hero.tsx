@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
-              Delicious Cakes <br /> Made with <span className="text-orange">Love</span>
+              Wear Your Vibe – Own Your Style!<br /> <span className="text-orange">Charm</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
               Handcrafted cakes for every occasion. Made with premium ingredients and baked fresh to order.
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80" 
+                src="https://www.tierra.vn/wp-content/uploads/2024/08/charm-la-gi-tim-hieu-ve-loai-trang-suc-duoc-nguoi-tre-yeu-thich-4.webp" 
                 alt="Delicious Cake" 
                 className="rounded-lg shadow-xl w-full h-auto"
               />

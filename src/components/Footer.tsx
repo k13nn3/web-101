@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <Link to="/" className="inline-block mb-4">
               <h2 className="text-2xl font-serif font-bold text-orange">
-                Dreamy<span className="text-orange-800">Cakes</span>
+                Charmistry<span className="text-orange-800">Group</span>
               </h2>
             </Link>
             <p className="text-gray-600 mb-4">
-              Delicious handmade cakes for every occasion. Made with love and premium ingredients.
+              Wear Your Vibe – Own Your Style!
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-orange hover:text-orange-700 transition-colors">
