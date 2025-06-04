@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-serif font-bold text-orange">
-              Dreamy<span className="text-orange-800">Cakes</span>
+              Charmistry<span className="text-orange-800">Cakes</span>
             </h1>
           </Link>
 
