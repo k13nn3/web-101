@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <Link to="/" className="inline-block mb-4">
               <h2 className="text-2xl font-serif font-bold text-orange">
-                Dreamy<span className="text-orange-800">Cakes</span>
+                Charmistry<span className="text-orange-800">Cakes</span>
               </h2>
             </Link>
             <p className="text-gray-600 mb-4">
