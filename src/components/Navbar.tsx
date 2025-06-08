@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
                 className="font-medium hover:text-orange transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Cakes
+                Charm
               </Link>
               <Link 
                 to="/about" 

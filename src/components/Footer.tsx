@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/products" className="text-gray-600 hover:text-orange transition-colors">
-                  Cakes
+                  Charms
                 </Link>
               </li>
               <li>
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Categories */}
+          {/* Categories 
           <div className="md:col-span-1">
             <h3 className="font-serif text-lg font-semibold mb-4">Categories</h3>
             <ul className="space-y-2">
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact */}
           <div className="md:col-span-1">
