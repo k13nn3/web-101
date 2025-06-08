@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Minus, Plus, ShoppingCart } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import CakeCard from "@/components/CakeCard";
-import img1 from "../../assets/images/1.jpg";
+import img1 from "../../assets/images/Celestia.jpg";
 
 // Sample products data - in a real app, this would come from an API
 const allProducts: Product[] = [
