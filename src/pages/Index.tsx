@@ -16,7 +16,7 @@ const Index: React.FC = () => {
         <Hero />
         <FeaturedCakes />
         
-        {/* Categories Section */}
+        {/* Categories Section 
         <section className="py-16 bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
@@ -92,7 +92,7 @@ const Index: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         <Testimonials />
 
