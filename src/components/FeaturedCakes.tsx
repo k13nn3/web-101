@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import CakeCard from "./CakeCard";
 import { Button } from "@/components/ui/button";
 import { Product } from "@/context/CartContext";
+import img1 from "../../assets/images/Celestia.jpg";
+import img2 from "../../assets/images/Sylphira.jpg";
+import img3 from "../../assets/images/Isolde.jpg";
+import img4 from "../../assets/images/Noctara.jpg";
 
 // Sample data - in a real app, this would come from an API
 const featuredCakes: Product[] = [
@@ -11,7 +15,7 @@ const featuredCakes: Product[] = [
     id: 1,
     name: "Celestia Charm",
     price: 45.99,
-    image: "https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: img1,
     description: "Rich chocolate cake with chocolate ganache and chocolate chips. A chocolate lover's dream.",
     category: "birthday",
   },
@@ -19,7 +23,7 @@ const featuredCakes: Product[] = [
     id: 2,
     name: "Sylphira Charm",
     price: 39.99,
-    image: "https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+    image: img2,
     description: "Light vanilla cake with layers of fresh strawberries and whipped cream frosting.",
     category: "fruity",
   },
@@ -27,7 +31,7 @@ const featuredCakes: Product[] = [
     id: 3,
     name: "Isolde Charm",
     price: 42.99,
-    image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    image: img3,
     description: "Classic red velvet cake with cream cheese frosting and red velvet crumbs.",
     category: "special",
   },
@@ -35,7 +39,7 @@ const featuredCakes: Product[] = [
     id: 4,
     name: "Noctara Charm",
     price: 38.99,
-    image: "https://images.unsplash.com/photo-1623246123320-0d6636755796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    image: img4,
     description: "Light lemon cake with fresh blueberries and lemon buttercream frosting.",
     category: "fruity",
   },
