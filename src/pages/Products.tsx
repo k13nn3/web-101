@@ -29,7 +29,7 @@ const allProducts: Product[] = [
   },
   {
     id: 3,
-    name: "Red Velvet",
+    name: "Charm Velvet",
     price: 42.99,
     image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     description: "Classic red velvet cake with cream cheese frosting and red velvet crumbs.",
