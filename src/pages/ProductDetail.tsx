@@ -16,7 +16,7 @@ const allProducts: Product[] = [
     id: 1,
     name: "Chocolate Indulgence",
     price: 45.99,
-    image: "https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: img1,
     description: "Rich chocolate cake with chocolate ganache and chocolate chips. A chocolate lover's dream.",
     category: "birthday",
   },
