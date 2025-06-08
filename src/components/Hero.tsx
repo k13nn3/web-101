@@ -36,8 +36,8 @@ const Hero: React.FC = () => {
                 className="rounded-lg shadow-xl w-full h-auto"
               />
               <div className="absolute -bottom-6 -right-6 bg-white rounded-lg shadow-lg p-4 w-32 h-32 flex flex-col items-center justify-center transform rotate-6">
-                <span className="text-orange font-serif font-bold text-xl">Fresh</span>
-                <span className="text-gray-600 text-sm text-center">Baked Daily</span>
+                <span className="text-orange font-serif font-bold text-xl">Charming</span>
+                <span className="text-gray-600 text-sm text-center">Rustic Charm</span>
               </div>
             </div>
           </div>
