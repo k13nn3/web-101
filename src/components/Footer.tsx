@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Categories 
+          {/* Categories */}
           <div className="md:col-span-1">
             <h3 className="font-serif text-lg font-semibold mb-4">Categories</h3>
             <ul className="space-y-2">
@@ -88,22 +88,22 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
 
           {/* Contact */}
           <div className="md:col-span-1">
             <h3 className="font-serif text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="text-gray-600">
-                123 Bakery Street
+                Đại học FPT
                 <br />
-                Sweet City, SC 12345
+                Hanoi, Vietnam
               </li>
               <li className="text-gray-600">
-                info@dreamycakes.com
+                phamthivananh20122003@gmail.com
               </li>
               <li className="text-gray-600">
-                (555) 123-4567
+                082 420 2493
               </li>
             </ul>
           </div>
@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-orange-100 mt-10 pt-6">
           <p className="text-center text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} DreamyCakes. All rights reserved.
+            &copy; {new Date().getFullYear()} Charmistry. All rights reserved.
           </p>
         </div>
       </div>

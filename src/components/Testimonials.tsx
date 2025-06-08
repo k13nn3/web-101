@@ -13,23 +13,23 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Sarah Johnson",
-    role: "Birthday Celebration",
+    role: "Consumer",
     image: "https://randomuser.me/api/portraits/women/32.jpg",
-    quote: "The cake was absolutely delicious and looked exactly as I had imagined. Everyone at the party was impressed!",
+    quote: "!!!",
   },
   {
     id: 2,
     name: "Michael Chen",
-    role: "Wedding",
+    role: "Consumer",
     image: "https://randomuser.me/api/portraits/men/86.jpg",
-    quote: "Our wedding cake was not only stunning but tasted amazing. The team was professional and delivered exactly what we wanted.",
+    quote: "!!!",
   },
   {
     id: 3,
     name: "Emily Rodriguez",
     role: "Anniversary",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
-    quote: "I've ordered multiple cakes over the years and they never disappoint. The quality and taste are consistently exceptional.",
+    quote: "!!!",
   },
 ];
 
@@ -42,7 +42,7 @@ const Testimonials: React.FC = () => {
             What Our Customers Say
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our happy customers have to say about our delicious cakes.
+            Don't just take our word for it. Here's what our happy customers have to say about our charms.
           </p>
         </div>
 
