@@ -9,71 +9,78 @@ import { Minus, Plus, ShoppingCart } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import CakeCard from "@/components/CakeCard";
 import img1 from "../../assets/images/Celestia.jpg";
+import img2 from "../../assets/images/Sylphira.jpg";
+import img3 from "../../assets/images/Isolde.jpg";
+import img4 from "../../assets/images/Noctara.jpg";
+import img5 from "../../assets/images/Candyra.jpg";
+import img6 from "../../assets/images/Pawara.jpg";
+import img7 from "../../assets/images/Orlune.jpg";
+import img8 from "../../assets/images/Faylen.jpg";
 
 // Sample products data - in a real app, this would come from an API
 const allProducts: Product[] = [
   {
     id: 1,
-    name: "Chocolate Indulgence",
-    price: 45.99,
+    name: "Celestia Charm",
+    price: 5.34,
     image: img1,
-    description: "Rich chocolate cake with chocolate ganache and chocolate chips. A chocolate lover's dream.",
+    description: "Celestia bracelet symbolizes the sparkling light from the universe, evoking a sense of nobility, purity and timeless beauty for dreamy souls.",
     category: "birthday",
   },
   {
     id: 2,
-    name: "Strawberry Delight",
-    price: 39.99,
-    image: img1,
-    description: "Light vanilla cake with layers of fresh strawberries and whipped cream frosting.",
+    name: "Sylphira Charm",
+    price: 5.34,
+    image: img2,
+    description: "Sylphira- wind spirit, very suitable for feathery and dreamy vibe.",
     category: "fruity",
   },
   {
     id: 3,
-    name: "Red Velvet",
-    price: 42.99,
-    image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    description: "Classic red velvet cake with cream cheese frosting and red velvet crumbs.",
+    name: "Isolde Charm",
+    price: 5.34,
+    image: img3,
+    description: "Isolde is inspired by the European legend of Isolde — the noble heroine and symbol of eternal love in the legendary story Tristan & Isolde.",
     category: "special",
   },
   {
     id: 4,
-    name: "Lemon Blueberry",
-    price: 38.99,
-    image: "https://images.unsplash.com/photo-1623246123320-0d6636755796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    description: "Light lemon cake with fresh blueberries and lemon buttercream frosting.",
+    name: "Noctara Charm",
+    price: 5.34,
+    image: img4,
+    description: "Noctara is inspired by the image of a night song — gentle, sparkling and enchanting.",
     category: "fruity",
   },
   {
     id: 5,
-    name: "Wedding Elegance",
-    price: 89.99,
-    image: "https://images.unsplash.com/photo-1535254973040-607b474d7f5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    description: "Elegant three-tier vanilla cake with buttercream frosting and edible flowers.",
+    name: "Candyra Charm",
+    price: 5.34,
+    image: img5,
+    description: "Candyra bracelets are a symbol of joy of life, freshness and positive energy, for girls who are always radiant and love life.",
     category: "wedding",
   },
   {
     id: 6,
-    name: "Carrot Cake",
-    price: 36.99,
-    image: "https://images.unsplash.com/photo-1605291545495-40ab306b7543?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-    description: "Moist carrot cake with cream cheese frosting and chopped walnuts.",
+    name: "Pawara Charm",
+    price: 5.34,
+    image: img6,
+    description: "Pawara bracelets are a symbol of love for pets, warmth, cuteness and gentle connection between people and their beloved little friends.",
     category: "special",
   },
   {
     id: 7,
-    name: "Vanilla Cupcakes",
-    price: 24.99,
-    image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-    description: "Classic vanilla cupcakes with buttercream frosting and sprinkles.",
+    name: "Orlune Charm",
+    price: 5.34,
+    image: img7,
+    description: "Orlune bracelet symbolizes the light that guides the way in the dark, bringing elegant, profound and enchanting feminine beauty to the wearer.",
     category: "cupcakes",
   },
   {
     id: 8,
-    name: "Chocolate Cupcakes",
-    price: 26.99,
-    image: "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-    description: "Rich chocolate cupcakes with chocolate ganache and chocolate shavings.",
+    name: "Faylen Charm",
+    price: 5.34,
+    image: img8,
+    description: "Faylen bracelet symbolizes freedom, dreaminess and delicate charm, like fairies flying gently in a mythical garden.",
     category: "cupcakes",
   },
 ];

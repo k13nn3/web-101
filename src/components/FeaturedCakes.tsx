@@ -14,7 +14,7 @@ const featuredCakes: Product[] = [
   {
     id: 1,
     name: "Celestia Charm",
-    price: 45.99,
+    price: 5.34,
     image: img1,
     description: "Rich chocolate cake with chocolate ganache and chocolate chips. A chocolate lover's dream.",
     category: "birthday",
@@ -22,7 +22,7 @@ const featuredCakes: Product[] = [
   {
     id: 2,
     name: "Sylphira Charm",
-    price: 39.99,
+    price: 5.34,
     image: img2,
     description: "Light vanilla cake with layers of fresh strawberries and whipped cream frosting.",
     category: "fruity",
@@ -30,7 +30,7 @@ const featuredCakes: Product[] = [
   {
     id: 3,
     name: "Isolde Charm",
-    price: 42.99,
+    price: 5.34,
     image: img3,
     description: "Classic red velvet cake with cream cheese frosting and red velvet crumbs.",
     category: "special",
@@ -38,7 +38,7 @@ const featuredCakes: Product[] = [
   {
     id: 4,
     name: "Noctara Charm",
-    price: 38.99,
+    price: 5.34,
     image: img4,
     description: "Light lemon cake with fresh blueberries and lemon buttercream frosting.",
     category: "fruity",
