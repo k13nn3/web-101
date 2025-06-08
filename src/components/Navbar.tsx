@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
               Home
             </Link>
             <Link to="/products" className="font-medium hover:text-orange transition-colors">
-              Charm
+              Charms
             </Link>
             <Link to="/about" className="font-medium hover:text-orange transition-colors">
               About
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
                 className="font-medium hover:text-orange transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Charm
+                Charms
               </Link>
               <Link 
                 to="/about" 

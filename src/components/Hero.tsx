@@ -10,10 +10,10 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
-              Wear Your Vibe – Own Your Style!<br /> <span className="text-orange">Charm</span>
+              Wear Your Vibe – Own Your Style!<br /> <span className="text-orange">Charmistry</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
-              Handcrafted cakes for every occasion. Made with premium ingredients and baked fresh to order.
+              Personalized charms that reflect your style. Customizable upon request and made from the finest materials.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link to="/products">
