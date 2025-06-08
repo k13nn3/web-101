@@ -23,7 +23,7 @@ const allProducts: Product[] = [
     id: 2,
     name: "Strawberry Delight",
     price: 39.99,
-    image: "https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+    image: "/assets/images/1.png",
     description: "Light vanilla cake with layers of fresh strawberries and whipped cream frosting.",
     category: "fruity",
   },
