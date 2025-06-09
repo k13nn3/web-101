@@ -99,10 +99,10 @@ const Index: React.FC = () => {
         {/* Call to Action */}
         <section className="py-16 bg-orange-500 text-white">
           <div className="container-custom text-center">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Ready to Order Your Dream Cake?</h2>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">Ready to Create Your Dream Jewelry Piece?</h2>
             <p className="text-orange-50 max-w-2xl mx-auto mb-8">
-              Place your order today and experience the magic of our handcrafted cakes.
-              Custom orders are available for special occasions.
+              Place your order today and discover the elegance of Charm Titan's handcrafted designs.
+              Custom pieces are available for special occasions and personal milestones.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
