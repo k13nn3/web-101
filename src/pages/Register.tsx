@@ -62,7 +62,7 @@ const Register: React.FC = () => {
             <div className="text-center mb-6">
               <h2 className="font-serif text-2xl font-bold text-gray-900">Create an Account</h2>
               <p className="text-gray-600 mt-2">
-                Join us to order delicious cakes and track your orders.
+                Join us to order delicious Charms and track your orders.
               </p>
             </div>
 

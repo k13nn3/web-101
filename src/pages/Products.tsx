@@ -86,12 +86,12 @@ const allProducts: Product[] = [
 ];
 
 const categories = [
-  { id: "all", name: "All Cakes" },
-  { id: "birthday", name: "Birthday" },
-  { id: "wedding", name: "Wedding" },
-  { id: "special", name: "Special Occasion" },
-  { id: "fruity", name: "Fruity" },
-  { id: "cupcakes", name: "Cupcakes" },
+  { id: "all", name: "All Charms" },
+  // { id: "birthday", name: "Birthday" },
+  // { id: "wedding", name: "Wedding" },
+  // { id: "special", name: "Special Occasion" },
+  // { id: "fruity", name: "Fruity" },
+  // { id: "Charms", name: "Charms" },
 ];
 
 const Products: React.FC = () => {

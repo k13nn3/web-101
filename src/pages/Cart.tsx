@@ -36,7 +36,7 @@ const Cart: React.FC = () => {
             </p>
             <Link to="/products">
               <Button className="bg-orange hover:bg-orange-600">
-                Browse Cakes
+                Browse Charms
               </Button>
             </Link>
           </div>
