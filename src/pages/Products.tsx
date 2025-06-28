@@ -136,10 +136,10 @@ const Products: React.FC = () => {
       <main className="flex-grow py-12 bg-orange-50">
         <div className="container-custom">
           <div className="text-center mb-10">
-            <h1 className="font-serif text-3xl md:text-4xl font-bold mb-4">Our Cakes</h1>
+            <h1 className="font-serif text-3xl md:text-4xl font-bold mb-4">Our Charms</h1>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Browse our selection of delicious handmade cakes, perfect for any occasion.
-              Made with love and premium ingredients.
+              Explore our exclusive collection of premium titanium charms, beautifully crafted to enhance your style for every occasion.
+              Made with precision and timeless elegance.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ const Products: React.FC = () => {
             <form onSubmit={handleSearch} className="flex max-w-md mx-auto">
               <Input
                 type="text"
-                placeholder="Search cakes..."
+                placeholder="Search charms..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="rounded-r-none"
@@ -185,7 +185,7 @@ const Products: React.FC = () => {
             </div>
           ) : (
             <div className="text-center py-12">
-              <h3 className="text-xl font-medium mb-2">No cakes found</h3>
+              <h3 className="text-xl font-medium mb-2">No charm found</h3>
               <p className="text-gray-600">
                 Try adjusting your search or filter to find what you're looking for.
               </p>

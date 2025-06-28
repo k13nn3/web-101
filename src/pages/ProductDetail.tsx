@@ -142,7 +142,7 @@ const ProductDetail: React.FC = () => {
           <div className="text-center">
             <h2 className="text-2xl font-medium mb-4">Product not found</h2>
             <Link to="/products" className="text-orange hover:underline">
-              Browse all cakes
+              Browse all charms
             </Link>
           </div>
         </main>
@@ -158,7 +158,7 @@ const ProductDetail: React.FC = () => {
         <div className="container-custom">
           <div className="mb-6">
             <Link to="/products" className="text-orange hover:underline inline-flex items-center">
-              ← Back to Cakes
+              ← Back to Charm
             </Link>
           </div>
 
